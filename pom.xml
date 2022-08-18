@@ -12,6 +12,8 @@
         <module>TaskCommon</module>
         <module>TaskSQL</module>
         <module>TaskTagMerge</module>
+        <module>TaskTransformCH</module>
+        <module>TestJava</module>
     </modules>
 
     <properties>
