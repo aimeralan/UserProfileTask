@@ -5,5 +5,6 @@ com\atguigu\userprofile\bean\TaskInfo.class
 com\atguigu\userprofile\util\MyPropertiesUtil.class
 com\atguigu\userprofile\util\MySQLUtil.class
 com\atguigu\userprofile\bean\TaskTagRule.class
+com\atguigu\userprofile\util\MyClickHouseUtil.class
 com\atguigu\userprofile\constant\ConstCodes.class
 com\atguigu\userprofile\dao\TagInfoDAO.class
