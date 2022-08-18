@@ -25,7 +25,8 @@ public class TaskSqlApp {
         String busiDate = args[1];
 
         //spark环境
-        SparkConf conf = new SparkConf().setAppName("task_sql_app").setMaster("local[*]");
+//        SparkConf conf = new SparkConf().setAppName("task_sql_app").setMaster("local[*]");
+        SparkConf conf = new SparkConf().setAppName("task_sql_app");
         SparkSession sparkSession = SparkSession.builder()
                 .config(conf).enableHiveSupport().getOrCreate();
 

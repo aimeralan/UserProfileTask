@@ -22,7 +22,8 @@ public class TaskExportClickHouse {
         String busiDate = args[1];
 
         //spark环境
-        SparkConf conf = new SparkConf().setAppName("task_exprot_clickhouse_app").setMaster("local[*]");
+//        SparkConf conf = new SparkConf().setAppName("task_exprot_clickhouse_app").setMaster("local[*]");
+        SparkConf conf = new SparkConf().setAppName("task_exprot_clickhouse_app");
         SparkSession sparkSession = SparkSession.builder().config(conf).enableHiveSupport().getOrCreate();
 
         //1 查询已启用的标签列表
