@@ -33,8 +33,8 @@ public class TaskMergeApp {
         String busiDate = args[1];
 
         //spark环境
-        SparkConf conf = new SparkConf().setAppName("task_merge_app").setMaster("local[*]");
-//        SparkConf conf = new SparkConf().setAppName("task_merge_app");
+//        SparkConf conf = new SparkConf().setAppName("task_merge_app").setMaster("local[*]");
+        SparkConf conf = new SparkConf().setAppName("task_merge_app");
         SparkSession sparkSession = SparkSession.builder().config(conf)
                 .enableHiveSupport().getOrCreate();
 
