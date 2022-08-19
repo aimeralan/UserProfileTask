@@ -28,8 +28,6 @@ public class TaskBitMapApp {
         //1 查询已启用的标签列表
         List<TagInfo> tagInfoList = TagInfoDAO.getTagInfoListWithOn();
 
-
-        //
         //2 因为要按标签值的类型不同，分成四份，分别插入4种bitmap表中
         List<TagInfo> tagInfoStringList = new ArrayList();
         List<TagInfo> tagInfoLongList = new ArrayList();
