@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="TaskTagMerge" />
+        <module name="TaskBitMapCH" />
         <module name="TaskTransformCH" />
         <module name="TaskCommon" />
         <module name="TaskSQL" />

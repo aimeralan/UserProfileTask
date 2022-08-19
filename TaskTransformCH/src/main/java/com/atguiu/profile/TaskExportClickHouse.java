@@ -54,6 +54,7 @@ public class TaskExportClickHouse {
                 " (uid String ,   " + filedNameSQL + " ) " +
                 " engine=  MergeTree" +
                 " order by uid ";
+
         MyClickHouseUtil.executeSql(createTableSQL);
 
 

@@ -1,7 +1,5 @@
 package com.atguigu.userprofile.util;
 
-import com.atguigu.userprofile.util.MyPropertiesUtil;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -23,6 +21,7 @@ public class MyClickHouseUtil {
         try {
             Connection connection = DriverManager.getConnection(CLICKHOUSE_URL, null, null);
             Statement statement = connection.createStatement();
+            System.out.println(sql);
             statement.execute(sql);
             connection.close();
         } catch (SQLException e) {
